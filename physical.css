@@ -1,0 +1,53 @@
+*{
+  margin: 5px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #f6edff;
+}
+
+h1{
+  font: 200 130px/0.8 'Cookie', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+background: #62879e;
+  margin: 40px;
+  justify-content: center;
+
+
+}
+
+.Exercises img {
+  width: 200px;
+  height: 200px;
+  margins: 50px;
+}
+
+.tips {
+  background-color: #62879e;
+  display: flex;
+  justify-content: center;
+ display: inline-block;
+}
+
+p {
+  justify-content: space-between;
+  background-color:#badaee;
+  display: inline-block;
+  font-size: 25px;
+
+}
+h4{ background-color: #62879e;
+    display: inline-block;
+}
+h3{
+background-color: #62879e;
+  text-size: 80px;
+  display: inline-block;
+
+  /* word-break: normal|break-all|keep-all|break-word|initial|inherit; */
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+}

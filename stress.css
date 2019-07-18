@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f6edff;
+}
+
+.quotes{
+  display:inline-block;
+  justify-content: center;
+  margin: 10px;
+  margin-left: 350px;
+
+}
+p{
+  color:#0d3c4a;
+}
+
+h2{
+  color:#0d3c4a;
+}
+h1{
+  color:#0d3c4a;
+
+}
+
+h3{
+  font-size: 25px;
+  margin-left: 450px;
+  color:#0d3c4a;
+
+}
+
+img{
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.tips{
+  display:flex;
+  justify-content:center;
+  margin: 20px;
+}
+
+.face-mask{
+  background-color: #E5FBFF;
+  border: 2px solid #62879e;
+  color: black;
+  margin: 20px;
+}
+
+.yoga{
+  background-color: #E5FBFF;
+  border: 2px double #62879e;
+  color: black;
+  margin: 20px;
+}
+
+.meditation{
+  background-color: #E5FBFF;
+  border: 2px solid #62879e;
+  color: black;
+  margin: 20px;
+}
+
+.stressrelief{
+  background-color: #62879e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 40px;
+}
+
+.quote-title{
+display: flex;
+justify-content: center;
+}
+
+.stressrelief {
+ font: 200 130px/0.8 'Cookie', Helvetica, sans-serif;
+ color: #fff;
+ text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}

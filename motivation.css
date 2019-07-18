@@ -1,0 +1,108 @@
+*{
+  margin: 5px;
+  padding: 0px;
+}
+
+.title{
+ font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+ color: #fff;
+ text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+body{
+  background-color: #f6edff;
+}
+
+.quotes{
+  display:inline-block;
+  justify-content: center;
+  margin: 10px;
+  color:#0d3c4a;
+
+}
+
+h3{
+  color:#0d3c4a;
+}
+
+p{
+  color:#0d3c4a;
+}
+
+h1{
+  color:#0d3c4a;
+}
+
+h2{
+  color:#0d3c4a;
+
+}
+
+img{
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+input{
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+}
+
+.tips-title{
+  font-size: 25px;
+  margin-left: 300px;
+}
+
+.tips{
+  display:flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.yoga{
+  background-color: #E5FBFF;
+  border: 2px solid #62879e;
+  color: black;
+  margin: 20px;
+}
+
+.music{
+  background-color: #E5FBFF;
+  border: 2px double #62879e;
+  color: #0d3c4a;
+  margin: 20px;
+}
+
+.grateful{
+  background-color: #E5FBFF;
+  border: 2px solid #62879e;
+  color: black;
+  margin: 20px;
+}
+
+.title{
+  background-color: #62879e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 80px;
+}
+
+.quote-title{
+display: flex;
+justify-content: center;
+}
+
+.photos img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+.quotecontent{
+  display:flex;
+  justify-content: center;
+}

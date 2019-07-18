@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color:#f6edff;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  color: #62879e;
+  font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+.about-us{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #62879e;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+.stress{
+  background-color: #62879e;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  width: 180px;
+}
+.physical-health{
+  background-color: #62879e;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+}
+.motivation{
+  background-color: #62879e;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+
+
+.rant-title{
+  color: #62879e;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  color: #62879e;
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  width: 800px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  overflow-wrap: break-word;}
+.type{
+  display: flex;
+  justify-content: center;
+  background-color: #62879e;
+  color: white;
+  margin: 20px;
+}
+
+button{
+  width: 50px;
+  height: 30px;
+  margin: 20px;
+  background-color: white;
+  color: #62879e;
+  margin-top: 50px;
+}
