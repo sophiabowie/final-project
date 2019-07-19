@@ -9,6 +9,16 @@
   top: 0;
 }
 
+.quotes{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-title{
+display: flex;
+justify-content: center;
+}
 
 
 .home-navigation{
@@ -89,7 +99,6 @@ h1{
 h2{
   color:#0d3c4a;
   font-family: helvetica;
-
 
 }
 

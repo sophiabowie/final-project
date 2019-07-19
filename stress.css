@@ -58,11 +58,9 @@ body{
 }
 
 .quotes{
-  display:inline-block;
+  display:flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 10px;
-  margin-left: 350px;
-
 }
 p{
   color:#0d3c4a;
@@ -82,7 +80,6 @@ h1{
 
 h3{
   font-size: 25px;
-  margin-left: 450px;
   color:#0d3c4a;
   font-family: helvetica;
 
