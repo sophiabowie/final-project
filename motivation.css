@@ -2,7 +2,54 @@
   margin: 5px;
   padding: 0px;
 }
+.navigation{
+  background: #62879e;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 
+
+
+.home-navigation{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
+
+.stress-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
+
+.phys-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
+
+.mot-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
 .title{
  font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
  color: #fff;
@@ -23,18 +70,26 @@ body{
 
 h3{
   color:#0d3c4a;
+  font-family: helvetica;
+
 }
 
 p{
   color:#0d3c4a;
+  font-family: helvetica;
+
 }
 
 h1{
   color:#0d3c4a;
+  font-family: helvetica;
+
 }
 
 h2{
   color:#0d3c4a;
+  font-family: helvetica;
+
 
 }
 
@@ -74,7 +129,11 @@ input{
   border: 2px double #62879e;
   color: #0d3c4a;
   margin: 20px;
+
+
 }
+
+
 
 .grateful{
   background-color: #E5FBFF;

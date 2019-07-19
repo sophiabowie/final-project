@@ -2,47 +2,135 @@
   margin: 5px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: #f6edff;
 }
+
+ body{
+   background-color: #f6edff;
+ }
+ /* .title {
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+ } */
 
 h1{
   font: 200 130px/0.8 'Cookie', Helvetica, sans-serif;
   color: #fff;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
-background: #62879e;
+  background: #62879e;
   margin: 40px;
+  display:flex;
   justify-content: center;
 
 
+}
+
+.navigation{
+  background: #62879e;
+   position:relative;
+}
+
+
+
+.home-navigation{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+  font-family: helvetica;
+
+}
+
+.stress-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+  font-family: helvetica;
+
+}
+
+.phys-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+  font-family: helvetica;
+
+}
+
+.mot-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+  font-family: helvetica;
+
+}
+
+.foods{
+  background-color: #E5FBFF;
+  border: 2px solid #62879e;
+
+}
+.Exercises{
+  background-color: #E5FBFF;
+  border: 2px solid #62879e;
 }
 
 .Exercises img {
   width: 200px;
   height: 200px;
   margins: 50px;
+
+
 }
 
 .tips {
-  background-color: #62879e;
-  display: flex;
-  justify-content: center;
- display: inline-block;
+
+  /* display: flex;
+  justify-content: center; */
+  background-color: #E5FBFF;
+  border: 2px solid #62879e;
+
 }
 
 p {
-  justify-content: space-between;
-  background-color:#badaee;
-  display: inline-block;
+   display: flex;
+   justify-content: center;
   font-size: 25px;
+  color:#0d3c4a;
+  font-family: helvetica;
+}
+
+
+h4{
+    display: flex;
+    justify-content: center;
+    color:#0d3c4a;
+    font-family: helvetica;
 
 }
-h4{ background-color: #62879e;
-    display: inline-block;
-}
 h3{
-background-color: #62879e;
+
   text-size: 80px;
-  display: inline-block;
+  color:#0d3c4a;
+  font-family: helvetica;
+
+
 
   /* word-break: normal|break-all|keep-all|break-word|initial|inherit; */
 }
@@ -50,4 +138,13 @@ background-color: #62879e;
 .all {
   display: flex;
   justify-content: center;
+}
+.navigation{
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+
+
+
 }

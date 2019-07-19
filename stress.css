@@ -3,7 +3,56 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.navigation{
+  background: #62879e;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 
+.text{
+  margin: 5px;
+}
+
+.home-navigation{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
+
+.stress-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
+
+.phys-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
+
+.mot-nav{
+  background-color: #62879e;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px;
+}
 body{
   background-color: #f6edff;
 }
@@ -17,13 +66,17 @@ body{
 }
 p{
   color:#0d3c4a;
+  font-family: helvetica;
 }
 
 h2{
   color:#0d3c4a;
+  font-family: helvetica;
+
 }
 h1{
   color:#0d3c4a;
+  font-family: helvetica;
 
 }
 
@@ -31,6 +84,8 @@ h3{
   font-size: 25px;
   margin-left: 450px;
   color:#0d3c4a;
+  font-family: helvetica;
+
 
 }
 
@@ -68,6 +123,8 @@ img{
   margin: 20px;
 }
 
+
+
 .stressrelief{
   background-color: #62879e;
   color: white;
@@ -86,4 +143,7 @@ justify-content: center;
  font: 200 130px/0.8 'Cookie', Helvetica, sans-serif;
  color: #fff;
  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+.fmask{
+
 }
